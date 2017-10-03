@@ -1,3 +1,104 @@
+var total = 0;
+function getPoints(){
+var quest1 = document.getElementByName("0");
+var answer1 = quest1[4].checked;
+var quest2 = document.getElementByName("1");
+var answer2 = quest2[4].checked;
+var quest3 = document.getElementByName("2");
+var answer3 = quest3[0].checked;
+var quest4 = document.getElementByName("3");
+var answer4 = quest4[0].checked;
+var quest5 = document.getElementByName("4");
+var answer5 = quest5[0].checked;
+
+if (answer1) {
+  total++;
+}
+  if (answer2) {
+    total++;
+  }
+    if (answer3) {
+      total++;
+    }
+      if (answer4) {
+        total++;
+      }
+        if (answer5) {
+          total++;
+
+
+alert(total);
+}
+
+
+
+  // function getTotal(){
+  //   // var total  = quest1 + quest2 + quest3 + quest4 + quest5;
+  //     alert(total);
+  //   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function getPoints(point1, point2, point3, point4, point5){
+//   return point1 + point2 + point3 + point4 + point5;
+// }
+//
+// document.getElementByName("point1", "point2", "point3","point4","point5")=
+// getPoints(1, 1, 1, 1, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // document.getElementByClass("next").addEventListener("click", getPoints),
 // document.getElementByClass("next").addEventListener("next", getPoints);
 // function nextButton(){
@@ -6,26 +107,28 @@
 
 
 // document.getElementByClass("next").addEventListener("next", getPoints);
+// var x = getPoints (quest1, quest2, quest3, quest4, quest5, total);
+// function getPoints(a, b, c, d, e) {
+//     return a + b + c + d + e;
 
-function getPoints(){
-
-  // var total = (document.getElementById("quest1") + (document.getElementById("e");
-  //              (document.getElementById("quest2") + (document.getElementById("e");
-  //            (document.getElementById("quest3") + (document.getElementById("a");
-  //           (document.getElementById("quest4") + (document.getElementById("a");
-  //            (document.getElementById("quest5") + (document.getElementById("a");
-  var quest1, quest2, quest3, quest4, quest5, total;
-  var quest1 = Radio(document.quiz.point1);
-  var quest2 = Radio(document.quiz.point2);
-  var quest3 = Radio(document.quiz.point3);
-  var quest4 = Radio(documnet.quiz.point4);
-  var quest5 = Radio(document.quiz.point5);
-  var total = quest1 + quest2 + quest3 + quest4 + quest5;
-document.quiz.total = total;
+//   var quest1 = document.getElementByName('point1');
+//   //Radio(document.quiz.point1);//document.getElementById
+//   var quest2 = document.getElementByName('point2');
+//   //  Radio(document.quiz.point2);
+//   var quest3 = document.getElementByName('point3');
+//   // Radio(document.quiz.point3);
+//   var quest4 = document.getElementByName('point4');
+//   // Radio(documnet.quiz.point4);
+//   var quest5 = document.getElementByName('point5');
+//   // Radio(document.quiz.point5);
+//   // var total = quest1 + quest2 + quest3 + quest4 + quest5;
+//   var total = point1, point2, point3, point4, point5;
+// // document.quiz.total = total;
 
 
-          console.log(total);
-}
+          // console.log(total);
+        // }
+
 //     alert(total);
 //   }
 // // document.getElementByClass("next").addEventListener("next", getPoints)
