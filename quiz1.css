@@ -1,20 +1,21 @@
 html{
     font-family: "Fonts/AmericanTypewriter.ttc",fantasy,sans-serif;
 }
-
-
 p{
   font-family: "Fonts/AmericanTypewriter.ttc",fantasy,sans-serif;
 }
-
 input{
   font-family: "Fonts/AmericanTypewriter.ttc",fantasy,sans-serif;
-
+}
+.button onClick{
+  font-family: "Fonts/AmericanTypewriter.ttc",fantasy,sans-serif;
 }
 div class{
   font-family: "Fonts/AmericanTypewriter.ttc",fantasy,sans-serif;
 }
-
+div data-role{
+  font-family: "Fonts/AmericanTypewriter.ttc",fantasy,sans-serif;
+}
 label{
   font-family: "Fonts/AmericanTypewriter.ttc",fantasy, sans-serif;
 }

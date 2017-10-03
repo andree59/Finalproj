@@ -7,6 +7,7 @@
     <title>First Quiz on HTML</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="/Users/user/Downloads/jquery-3.2.1.js"></script>
     <link rel="stylesheet" href="/Users/user/Desktop/Finalproj/quiz1.css">
   </head>
   <body>
@@ -20,27 +21,34 @@
     	<div class=“radio”>
     		<section>
           <p id="quest5"></p>
-    	  <input type="radio" id="1-5" name="point" value="True">True<br>
-        <input type="radio" id="2-5" name="0" value="False">False<br>
-        <!-- <input type="radio" id="3-5" name="quiz" value="<title>"><<title>><br>
-    		<input type="radio" id="4-5" name="quiz" value="<header>"><<header>><br>
-        <input type="radio" id="5-5" name="quiz" value="<section>"><<section>><br> -->
+      	  <input type="radio" id="a" name="point5" value="True">True<br>
+            <p id="a"></p>
+          <input type="radio" id="b" name="0" value="False">False<br>
+            <p id="b"></p>
+          <input type="radio" id="c" name="0" value="Neither">Neither<br>
+            <p id="c"></p>
+
+          <p id="getPoints"></p> <!-- empty p tag-->
           <!-- <button onClick="getPoints()">Submit Answer</button> -->
-          <button onClick="getPoints()">Submit Answer</button>
-          <button onClick="getTotal()">Get Total for Quiz 1</button>
+
+
         </section>
     		<section>
     		<br>
-    		     <!-- <input type=“submit” value= "Next Question" onclick="nextFunction()"> -->
-             <!-- <DOCTYPE html> -->
+     <div data-role="page" id"firstpage5.html">
+                   <!-- <button onClick="getPoints()">Submit Answer</button>
+                   <a href="firstpage4.html"  class="previous">&laquo; Previous</a>
+                   <p id="getTotal"><p>
+                   <button onClick="getTotal()">Score for Quiz 1</button> -->
 
-                 <div data-role="page" id"firstpage5.html">
-                   <!-- <a href="#" class="previous">&laquo; Previous</a> -->
-                   <!-- <a href="firstpage4.html" class="next">Next &raquo;</a> -->
+                   <p id="getPoints"></p> <!-- empty p tag-->
+                   <a href="" button onClick="getPoints()" class="Submit">&raquo; Submit</a>
                    <a href="firstpage4.html" class="previous">&laquo; Previous</a>
 
 
+
     	 </section>
+       <button onClick="getTotal()">Get Total for Quiz 1. 5 points possible.</button>
      </div>
     </form>
     <div class="total">Total 5 questions</div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Users/user/Desktop/Finalproj/quiz1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="/Users/user/Downloads/jquery-3.2.1.js"></script>
       </head>
   <body>
     <h1>
@@ -21,40 +22,27 @@
     		<section>
           <!-- <p id="points"></p> -->
           <p id="quest1"></p>
-    	  <input type="radio" id="1" name="0" value="Home Too Markup Lesson"> Home Too Markup Lesson<br>
-        <input type="radio" id="2" name="0"value="Hyperlinks and Text Markup Language"> Hyperlinks and Text Markup Language<br>
-        <input type="radio" id="3" name="0" value="Home Tools Make Language"> Home Tools Make Language<br>
-    		<input type="radio" id="4" name="0" value="Home Text Markup Language"> Home Text Markup Language<br>
-        <input type="radio" id="5" name="point" value="Hyper Text and Markup Language"> Hyperion Text Markup Language<br>
+        <input type="radio" id="a" name="0" value="Home Too Markup Lesson"> Home Too Markup Lesson<br>
+        <p id="a"></p>
+        <input type="radio" id="b" name="0" value="Hyperlinks and Text Markup Language"> Hyperlinks and Text Markup Language<br>
+        <p id="b"></p>
+        <input type="radio" id="c" name="0" value="Home Tools Make Language"> Home Tools Make Language<br>
+        <p id="c"></p>
+    		<input type="radio" id="d" name="0" value="Home Text Markup Language"> Home Text Markup Language<br>
+        <p id="d"></p>
+        <input type="radio" id="e" name="point1" value="Hyper Text Markup Language"> Hyper Text Markup Language<br>
+        <p id="e"></p>
 
-        <button onClick="getPoints()">Submit Answer</button>
-
-        </section>
+      <div data-role="page" id"first.html">
+        <p id="getPoints"></p> <!-- empty p tag-->
+          <a href="firstpage2.html" button onClick="getPoints()" class="next" >Next &raquo; </a>
+          </section>
     		<section>
     		<br>
-
-
-            <div data-role="page" id"first.html">
-              <!-- <a href="#" class="previous">&laquo; Previous</a> -->
-              <a href="firstpage2.html" class="next">Next &raquo;</a>
-              <!-- <a href="#" class="previous">&laquo; Previous</a> -->
-
-      <!-- <div data-role="main" class="ui-content">
-      <a href="firstpage2.html" data-transition="slide">Slide to Page Two</a>
-      </div> -->
-      <!-- <div data-role="page" id="firstpage2.html"></div>
-      <div data-role="main" class="ui-content">
-      <a href="first.html" data-transition="slide" data-direction="reverse">Slide to Page One (reversed)</a>
-      </div> -->
-
-
-
     	 </section>
      </div>
     </form>
     <div class="total">Total 1 question</div>
-
-
     <script src="main.js" type "text/javascript"></script>
     </body>
     <footer>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Users/user/Desktop/Finalproj/quiz1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="/Users/user/Downloads/jquery-3.2.1.js"></script>
   </head>
   <body>
     <h1>
@@ -20,32 +21,24 @@
     	 <div class=“radio”>
     		   <section>
              <p id="quest4"></p>
-    	  <input type="radio" id="1-4" name="point" value="True">True<br>
-        <input type="radio" id="2-4" name="0" value="False">False<br>
-        <!-- <input type="radio" id="3" name="quiz" value="Home Tools Make Language"> Home Tools Make Language<br>
-    		<input type="radio" id="4" name="quiz" value="Home Text Markup Language"> Home Text Markup Language<br>
-        <input type="radio" id="5" name="quiz" value="Hyperion Text Markup Language"> Hyperion Text Markup Language<br> -->
-        <button onClick="getPoints()">Submit Answer</button>
-            </section>
-    		     <section>
+    	  <input type="radio" id="a" name="point4" value="True">True<br>
+          <p id="a"></p>
+        <input type="radio" id="b" name="0" value="False">False<br>
+          <p id="b"></p>
+        <input type="radio" id="c" name="0" value="Neither">Neither<br>
+          <p id="c"></p>
+
+          <p id="getPoints"></p> <!-- empty p tag-->
+
+        <div data-role="page" id"firstpage4.html">
+
+
+              <p id="getPoints"></p> <!-- empty p tag-->
+              <a href="firstpage5.html" button onClick="getPoints()" class="next" >Next &raquo; </a>
+              <a href="firstpage3" class="previous">&laquo; Previous</a>
+      </section>
+    	<section>
     		<br>
-    		     <!-- <input type=“submit” value= "Next Question"> -->
-
-                 <div data-role="page" id"firstpage4.html">
-                   <!-- <a href="#" class="previous">&laquo; Previous</a> -->
-                   <a href="firstpage5.html" class="next">Next &raquo;</a>
-                   <a href="firstpage3.html" class="previous">&laquo; Previous</a>
-
-           <!-- <div data-role="main" class="ui-content">
-           <a href="firstpage4.html" data-transition="slide">Slide to Page Five</a>
-           </div>
-
-           <div data-role="page" id="firstpage3.html"></div>
-           <div data-role="main" class="ui-content">
-           <a href="firstpage2.html" data-transition="slide" data-direction="reverse">Slide to Page One (reversed)</a>-->
-                </div>
-
-
     	 </section>
      </div>
     </form>

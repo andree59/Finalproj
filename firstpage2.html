@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Users/user/Desktop/Finalproj/quiz1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="/Users/user/Downloads/jquery-3.2.1.js"></script>
   </head>
   <body>
     <h1>
@@ -21,39 +22,30 @@
     		<section>
 
           <p id="quest2"></p>
-    	  <input type="radio" id="1-2"name="0" value="Firefox" id="1-2">Firefox<br>
-        <input type="radio" name="0" value="Wikipedia" id="2-2">Wikipedia<br>
-        <input type="radio" name="0" value="Google" id="3-2">Google<br>
-    		<input type="radio" name="0" value="Mozilla" id="4-2">Mozilla<br>
-        <input type="radio" name="point" value="The World Wide Web Consortium" id="5-2">The World Wide Web Consortium<br>
-          <button onClick="getPoints()">Submit Answer</button>
+    	  <input type="radio" id="a" name="0" value="Firefox" id="1-2">Firefox<br>
+        <p id="a"></p>
+        <input type="radio" id="b"name="0" value="Wikipedia" id="2-2">Wikipedia<br>
+        <p id="b"></p>
+        <input type="radio" id="c"name="0" value="Google" id="3-2">Google<br>
+        <p id="c"></p>
+    		<input type="radio" id="d"name="0" value="Mozilla" id="4-2">Mozilla<br>
+        <p id="d"></p>
+        <input type="radio" id="e"name="point2" value="The World Wide Web Consortium" id="5-2">The World Wide Web Consortium<br>
+        <p id="e"></p>
+
+        <p id="getPoints"></p> <!-- empty p tag-->
+          <!-- <button onClick="getPoints()">Submit Answer</button> -->
         </section>
 
     		<section>
     		<br>
-        <!-- <DOCTYPE html>
-          <html>
-          <head>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-          </head>
-          <body> -->
-            <div data-role="page" id"firstpage2.html">
+    <div data-role="page" id"firstpage2.html">
               <!-- <a href="#" class="previous">&laquo; Previous</a> -->
-              <a href="firstpage3.html" class="next">Next &raquo;</a>
-             <a href="first.html" class="previous">&laquo; Previous</a>
+              <p id="getPoints"></p> <!-- empty p tag-->
+              <a href="firstpage3.html" button onClick="getPoints()" class="next" >Next &raquo; </a>
+              <a href="first.html" class="previous">&laquo; Previous</a>
 
-      <!-- <div data-role="main" class="ui-content">
-      <a href="firstpage3.html" data-transition="slide">Slide to Page Three</a>
-      </div> -->
-      <!-- <div data-role="page" id="firstpage2.html"></div>
-      <div data-role="main" class="ui-content">
-      <a href="first.html" data-transition="slide" data-direction="reverse">Slide to Page One (reversed)</a>
-      </div> -->
-    <!-- </body>
-    </html> -->
-
-    	 </section>
+      </section>
      </div>
     </form>
     <div class="total">Total 2 questions</div>
